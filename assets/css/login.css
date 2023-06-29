@@ -1,0 +1,43 @@
+.div_login{
+    background-image: linear-gradient(to right,#044cab,#00002d,#044cab);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    }
+
+.div_login h1{
+    font-weight: 700;
+}
+.input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+.button{
+    background-color: #044cab;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    opacity: 0.8;
+
+}
+.button:hover{
+    background-color: #00002d;
+    cursor: pointer;
+    opacity: 1;
+}
+.div_login p a{
+    color: rgb(13, 198, 198);
+}
+.novo_form_login a{
+    text-align: center;
+}

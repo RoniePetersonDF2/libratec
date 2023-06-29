@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navmenu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.navmenu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white; 
+    flex-wrap: wrap; 
+}
+.navmenu a:hover{
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.resultado_margem{
+    margin-bottom: 100px;
+    padding: 80px;
+}
+
+.resultado-titulo{
+    display: flex;
+    justify-content: center;
+    color: #ebebeb;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.introducao-area{
+    display: flex;
+    color: #ebebeb;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cards_selecao {
+    background-image: linear-gradient(to right, #0f086b, #1e0f92, #0f086b);
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.cards {
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    transform: 0.2s all ease-out;
+}
+
+.cards-resultado {
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    transform: 0.2s all ease-out;
+}
+
+.card-item {
+    width: calc(50% - 50px); /* Defina a largura para ocupar metade da linha com um espaçamento de 50px */
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.809);
+    border-radius: 10px;
+    border: #504bff 2px solid;
+    transition: 0.2s all ease-out;
+}
+
+.card-item-opcao {
+    width: 250px; /* Defina a largura para ocupar cerca de 1/3 da linha com um espaçamento de 20px */
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Altere para row */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.809);
+    height: 300px;
+    border-radius: 10px;
+    border: #504bff 2px solid;
+    transition: 0.2s all ease-out;
+}
+
+.card-item-empresa {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.809);
+    min-height: 300px;
+    border-radius: 10px;
+    border: #504bff 2px solid;
+    transition: 0.2s all ease-out;
+    flex-grow: 1; /* Permite que a div cresça e ocupe mais espaço */
+    flex-shrink: 0; /* Impede que a div encolha */
+    position: relative;
+}
+
+.campo-resultado-endereco{
+    margin-top: 50px;
+}
+
+.campo-resultado-telefone {
+    margin-top: auto;
+    border-radius: 5px;
+    align-self: flex-end;
+    background-color: #ebebeb;
+    transition: 0.2s all ease-out;
+}
+
+.campo-titulo {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.campo-titulo-telefone {
+    margin-top: 70px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.campo-dado {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.campo-dado-telefone {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.nomecard {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nomecard p {
+    text-decoration: none;
+}
+
+.tirardecoracao{
+    text-decoration: none;
+}
+
+.card-item-opcao:hover{
+    transition: 0.2s;
+    background-color:#b4c3ff;
+    color: #000;
+}
+
+.card-item-empresa:hover{
+    transition: 0.2s;
+    background-color: #b4c3ff;
+    color: #000;
+}
+
+.card-item:hover{
+    transition: 0.2s;
+    background-color: #b4c3ff;
+    color: #000;
+}
+
+.card-item:hover .campo-resultado-telefone {
+    transition: 0.2s;
+    background-color: #fff;
+}
+
+@media(max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .navmenu {
+        padding: 0;
+    }
+}
+
+#main_footer_rights{
+    line-height:100px;
+    color: white;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color:#075284;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.movendoimagem{
+    position: relative;
+    left: 1330px;
+}
+.navbar ul{
+    display: flex;
+    align-items: stretch;
+}
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color:#d36833;
+}
+.navbar ul li a:hover{
+    color: white;
+}

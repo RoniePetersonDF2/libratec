@@ -1,0 +1,117 @@
+
+.container{
+    padding: 50px;
+    text-align: center;
+}
+.topbar {
+    background-color: #044cab;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar a {
+    color: #d36833;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.2s all ease-out;
+}
+
+.topbar a:hover{
+    transition: 0.2s;
+    background-color: #d36833;
+    color: #fff;
+}
+
+.edita_dados_perfil_delete{
+    color: #d36833;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 1.4em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+.edita_dados_perfil_delete:hover{
+    transition: 0.2s;
+    background-color: #d36833;
+    color: #fff;
+}
+
+.perfil_volta_botao{
+    color: #d36833;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 1.4em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+.perfil_volta_botao:hover{
+    transition: 0.2s;
+    background-color: #d36833;
+    color: #fff;
+}
+
+.edita_dados_perfil {
+    order: 2;
+    display: flex;
+}
+
+.navega_perfil {
+    order: 1;
+}
+
+.perfil_titulo{
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 2.5em;
+}
+
+.dado_titulo{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.dado_campo{
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.sidebar{
+    background-color:#d36833;
+    color:white;
+    height: 100%;
+}
+.sidebar a {
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom:10px;
+    font-size: 30px;
+    text-decoration:none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content{
+    background-color: whitesmoke;
+    padding: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

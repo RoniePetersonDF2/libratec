@@ -1,0 +1,101 @@
+.novo__form__titulo {
+    font-size: 1.9rem;
+    font-weight: 200;
+    text-align: center;
+    width: 100vw;
+    margin: 50px 0;
+}
+.novo__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    width: 80vw;
+    border: 1px solid #929292;
+    padding: 50px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(77,77,77,1);
+    box-shadow: 0px 0px 10px -2px rgba(77,77,77,1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.novo__form label {
+    margin-top: 30px;
+    padding: 0;
+    height: 30px;
+    font-size: 1.3em;
+}
+
+.novo__form input, select, label {
+    height: 35px;
+    font-size: 1.1em;
+}
+
+.textarea-estendido {
+    padding: 5px;
+  }
+
+  .contador-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.novo__form input[type="submit"] {
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #035c97;
+    background-color: #035c97;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 100px;
+    max-width: 200px;
+    transition: 0.2s all ease-out;
+}
+
+.novo__form input[type="submit"]:hover {
+    transition: 0.2s;
+    background-color: #004370;
+}
+
+.novo__form__login {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.novo__form__login a {
+    color:#fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-right: 2px;
+}
+
+.novo__form__login a:hover {
+    text-decoration: underline;
+}
+
+
+.login_usuario {
+    color: #fff;
+    text-align: right;
+    font-weight: 600;
+}

@@ -1,0 +1,87 @@
+.main_stage {
+    width: 100%;
+   
+}
+.main_stage .main_stage_content {
+    max-width: 1300px;
+     margin: 30px auto;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 20px 0;
+     flex-basis:100%;
+     text-align: center;
+     font-weight: 300;  
+}
+.table tr th{
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color:#044cab;
+    color: #fff;
+}
+.listagem_info {
+    display: flex;
+    text-align: center;
+    margin: 50px auto;
+    color: #fff;
+    font-size: 3em;
+    margin-top: 15px 0;
+
+}
+.btn{
+    padding: 10px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #035c97;
+    background-color: #035c97;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    max-width: 200px;
+    transition: 0.2s all ease-out;
+}
+
+.btn_alinhamento{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    gap: 20px;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    background-color: #004370;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn2{
+    padding: 10px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #035c97;
+    background-color: #035c97;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    max-width: 200px;
+    transition: 0.2s all ease-out;
+}
+
+.btn2:hover{
+    transition: 0.2s;
+    background-color: #004370;
+}
+
+.btn2:hover{
+    opacity: 1;
+}
+
+.space{
+   padding: 15px 0;
+}

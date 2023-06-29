@@ -1,0 +1,67 @@
+.vagas_edita {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 60px 60px;
+    position: relative; /* Adicionado */
+}
+
+.botoes-edicao {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.botao-editar,
+.botao-apagar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botao-editar {
+    font-size: 1.1em;
+    background-color: #28a745;
+    margin-right: 10px;
+    transition: 0.2s all ease-out;
+}
+
+.botao-apagar {
+    font-size: 1.1em;
+    background-color: #dc3545;
+    transition: 0.2s all ease-out;
+}
+
+.botao-editar:hover{
+    background-color: #1e7c39;
+}
+
+.botao-apagar:hover{
+    background-color: #a8323a;
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.nome_empresa_painel{
+    font-size: 1.1em;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 1.1em;
+}
+
+.contador-wrapper {
+    text-align: right;
+}
